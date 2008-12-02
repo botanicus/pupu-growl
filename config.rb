@@ -1,8 +1,8 @@
 # dependencies of the pupu
-#dependencies :mootools
+dependency :mootools
 
 # javascripts for loading
-javascripts "growl", :in => "lib"
+javascrips "growl"
 
 # parameters of plugin
 # it will be blank in most cases

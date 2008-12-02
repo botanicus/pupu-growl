@@ -4,19 +4,17 @@ Merb_pupu is a plugin system for merb's public stuff like mootools plugins, icon
 
 h1. About growl
 
+Growl is plugin for MooTools inspirated by Growl for Mac OS X. For more informations please visit "Growl homepage":http://icebeat.bitacoras.com/mootools/growl
+
 h1. Usage
+
+h2. Initializer
+
+Edit the public/javascripts/initializers/autocompleter.js.
 
 h2. Layout
 
 <pre>
 # for basic functionality
 plugin :growl
-</pre>
-
-h2. Initializers
-
-<pre>
-window.addEvent("domready", function() {
-  // do the init stuff
-})
 </pre>
